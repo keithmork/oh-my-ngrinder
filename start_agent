@@ -1,0 +1,3 @@
+#!/bin/bash
+
+$(dirname $0)/ngrinder-agent/run_agent_bg.sh > agent.log 2> agent.err &

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+$(dirname $0)/ngrinder-monitor/run_monitor_bg.sh > monitor.log 2> monitor.err &
